@@ -1,0 +1,76 @@
+{
+  "uid" : "1b274914fae8797a",
+  "name" : "Should Login with Valid Credentials",
+  "fullName" : "Access Admin Panel.Should Login with Valid Credentials",
+  "historyId" : "5a01f395e80832d73155d2cede84a68a",
+  "time" : {
+    "start" : 1652984384362,
+    "stop" : 1652984411274,
+    "duration" : 26912
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60f29cd521a92ce",
+      "name" : "Execution video",
+      "source" : "60f29cd521a92ce.mp4",
+      "type" : "video/mp4",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Login with Valid Credentials"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Pixel 4 API 30 11.0-11"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b274914fae8797a.json",
+  "parameterValues" : [ "Pixel 4 API 30 11.0-11" ]
+}

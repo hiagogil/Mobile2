@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652984384361' stop='1652984411279'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1652984384362' status='passed' stop='1652984411274'>
+            <name>Should Login with Valid Credentials</name>
+            <title>Should Login with Valid Credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 4 API 30 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='de795eef-f0f4-4394-b8ab-cc476d149a64-attachment.mp4' type='video/mp4' size='136'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

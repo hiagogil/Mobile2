@@ -1,0 +1,78 @@
+{
+  "uid" : "cb90dfac3bb5bc69",
+  "name" : "Should Login with Valid Credentials",
+  "fullName" : "Access Admin Panel.Should Login with Valid Credentials",
+  "historyId" : "1e7d6bfa6b43c34318b5958ac6cbfb33",
+  "time" : {
+    "start" : 1653068259408,
+    "stop" : 1653068290645,
+    "duration" : 31237
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5cde2f1b26f0c666",
+      "name" : "Execution video",
+      "source" : "5cde2f1b26f0c666.mp4",
+      "type" : "video/mp4",
+      "size" : 473019
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Login with Valid Credentials"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "samsung galaxy s20-10.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb90dfac3bb5bc69.json",
+  "parameterValues" : [ "samsung galaxy s20-10.0" ]
+}

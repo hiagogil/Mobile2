@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clonar o repositorio') {
+            steps {
+               git branch: 'main', url: 'https://github.com/hiagogil/Mobile2.git'
+            }
+        }
+        stage('Instalar dependencias') {
+            steps {
+               powershell 'npm install'
+            }
+        }
+        stage('Credenciais do Browserstack') {
+            steps {
+               browserstack('b6422ac2-467e-42ea-beff-44c954f37a85') {
+                // some block
+                }
+            }
+        }
+        stage('Executar Testes') {
+            steps {
+              powershell 'npm test' 
+            }
+        }
+    }
+}

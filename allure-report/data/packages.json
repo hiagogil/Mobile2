@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Access Admin Panel",
+    "children" : [ {
+      "name" : "Should Login with Valid Credentials",
+      "uid" : "7609121951b328f7",
+      "parentUid" : "68f41d03a0b8d648a09194718213b826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652984538583,
+        "stop" : 1652984577026,
+        "duration" : 38443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Pixel 4 API 30 11.0-11" ]
+    }, {
+      "name" : "Should Login with Valid Credentials",
+      "uid" : "cb90dfac3bb5bc69",
+      "parentUid" : "68f41d03a0b8d648a09194718213b826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653068259408,
+        "stop" : 1653068290645,
+        "duration" : 31237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20-10.0" ]
+    } ],
+    "uid" : "68f41d03a0b8d648a09194718213b826"
+  } ]
+}

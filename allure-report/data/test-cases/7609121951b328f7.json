@@ -1,0 +1,94 @@
+{
+  "uid" : "7609121951b328f7",
+  "name" : "Should Login with Valid Credentials",
+  "fullName" : "Access Admin Panel.Should Login with Valid Credentials",
+  "historyId" : "5a01f395e80832d73155d2cede84a68a",
+  "time" : {
+    "start" : 1652984538583,
+    "stop" : 1652984577026,
+    "duration" : 38443
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "79c68cf0b9f8154e",
+      "name" : "Execution video",
+      "source" : "79c68cf0b9f8154e.mp4",
+      "type" : "video/mp4",
+      "size" : 401495
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Login with Valid Credentials"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Pixel 4 API 30 11.0-11"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1b274914fae8797a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652984384362,
+        "stop" : 1652984411274,
+        "duration" : 26912
+      }
+    }, {
+      "uid" : "e56f66dd4d051bd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652983919488,
+        "stop" : 1652983949957,
+        "duration" : 30469
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7609121951b328f7.json",
+  "parameterValues" : [ "Pixel 4 API 30 11.0-11" ]
+}
